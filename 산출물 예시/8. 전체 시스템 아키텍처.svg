@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1560" viewBox="0 0 1680 1560" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#6E7079"/>
+</marker>
+<marker id="arrow-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+<path d="M10,0 L0,5 L10,10 z" fill="#6E7079"/>
+</marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#6D28D9"/>
+</marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#15803D"/>
+</marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#1D4ED8"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1680" height="1560" rx="0" fill="#E9EBEF" stroke="none" stroke-width="1"/>
+<rect x="0.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Page Title</text>
+<rect x="0.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">전체 시스템 아키텍처</text>
+<rect x="420.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="434.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen ID</text>
+<rect x="420.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="434.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">ARCH-SYSTEM-001</text>
+<rect x="840.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="854.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Author</text>
+<rect x="840.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="854.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI기획자 과정</text>
+<rect x="1260.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1274.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Date</text>
+<rect x="1260.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1274.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">2026-07-12</text>
+<text x="14" y="84" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Path : 건강한하루 프로젝트 &gt; Week01~05 통합 시스템 아키텍처</text>
+<text x="16" y="118" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="16" font-weight="bold" fill="#262730" text-anchor="start">건강한하루 — 전체 시스템 아키텍처 (Frontend → API → Service → DB / RAG / 외부 LLM)</text>
+<text x="16" y="136" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">Week01~05에 걸쳐 만든 요구사항·데이터·화면·백엔드·RAG가 하나의 서비스로 어떻게 연결되는지 정리한 구성도입니다.</text>
+<text x="-245.0" y="10" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#9AA0AC" text-anchor="middle" transform="rotate(-90)">FRONTEND</text>
+<rect x="16" y="158" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="158" width="316" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<rect x="28" y="174" width="77.2" height="20" rx="10.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="66.6" y="187.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#92400E" text-anchor="middle">UI-W-001</text>
+<rect x="259.0" y="174" width="61.0" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="289.5" y="187.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">진입 화면</text>
+<text x="30" y="220" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">홈</text>
+<text x="30" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">카테고리 바로가기</text>
+<text x="30" y="261" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">최근 본 상품</text>
+<rect x="28" y="300" width="68.4" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="62.2" y="313.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">home.py</text>
+<rect x="348" y="158" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="348" y="158" width="316" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<rect x="360" y="174" width="77.2" height="20" rx="10.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="398.6" y="187.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#92400E" text-anchor="middle">UI-W-002</text>
+<rect x="582.4" y="174" width="69.6" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="617.1999999999999" y="187.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-1.1</text>
+<text x="362" y="220" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">건강고민 입력</text>
+<text x="362" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">고민 키워드 선택/입력</text>
+<rect x="360" y="300" width="133.2" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="426.6" y="313.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">concern_input.py</text>
+<rect x="680" y="158" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="680" y="158" width="316" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<rect x="692" y="174" width="77.2" height="20" rx="10.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="730.6" y="187.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#92400E" text-anchor="middle">UI-W-003</text>
+<rect x="880.0" y="174" width="104.0" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="932.0" y="187.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-1.2~1.4</text>
+<text x="694" y="220" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">추천 결과</text>
+<text x="694" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">추천 상품 최대 5개</text>
+<text x="694" y="261" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">+ 추천 근거 · 재추천</text>
+<rect x="692" y="300" width="82.8" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="733.4" y="313.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">result.py</text>
+<rect x="1012" y="158" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1012" y="158" width="316" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<rect x="1024" y="174" width="77.2" height="20" rx="10.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="1062.6" y="187.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#92400E" text-anchor="middle">UI-H-004</text>
+<rect x="1203.4" y="174" width="112.6" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1259.7" y="187.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-2 · RF-4</text>
+<text x="1026" y="220" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">상품 상세</text>
+<text x="1026" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">성분 설명 · 섭취기준</text>
+<text x="1026" y="261" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">과다섭취 경고</text>
+<rect x="1024" y="300" width="82.8" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1065.4" y="313.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">detail.py</text>
+<rect x="1344" y="158" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1344" y="158" width="316" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<rect x="1356" y="174" width="77.2" height="20" rx="10.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="1394.6" y="187.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#92400E" text-anchor="middle">UI-W-005</text>
+<rect x="1595.6" y="174" width="52.4" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1621.8" y="187.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-3</text>
+<text x="1358" y="220" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">AI 상담</text>
+<text x="1358" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">자유 질문 챗봇</text>
+<text x="1358" y="261" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">근거 문서 · 출처 표시</text>
+<rect x="1356" y="300" width="68.4" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1390.2" y="313.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">chat.py</text>
+<text x="16" y="144" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#92400E" text-anchor="start">Streamlit — streamlit_app/app.py (session_state 기반 5-화면 라우팅)</text>
+<line x1="838.0" y1="338" x2="838.0" y2="392" stroke="#6E7079" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="642.4" y="354.0" width="391.2" height="22" rx="11.0" fill="#6E7079" stroke="none" stroke-width="1"/>
+<text x="838.0" y="368.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">HTTP 요청/응답 (requests, api_client.py)</text>
+<text x="-493.0" y="10" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#9AA0AC" text-anchor="middle" transform="rotate(-90)">API</text>
+<rect x="16" y="398" width="316" height="190" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="398" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<rect x="28" y="414" width="37.0" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="46.5" y="427.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="bold" fill="#305496" text-anchor="middle">GET</text>
+<rect x="293.4" y="414" width="26.6" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="306.7" y="427.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">-</text>
+<text x="30" y="456" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">/products</text>
+<text x="30" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">상품 목록 · 상세 조회</text>
+<text x="30" y="499" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">(기초 CRUD, 다른 기능의 기반)</text>
+<rect x="28" y="556" width="97.2" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="76.6" y="569.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#6D28D9" text-anchor="middle">products.py</text>
+<rect x="348" y="398" width="316" height="190" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="348" y="398" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<rect x="360" y="414" width="44.0" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="382.0" y="427.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="bold" fill="#305496" text-anchor="middle">POST</text>
+<rect x="599.6" y="414" width="52.4" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="625.8000000000001" y="427.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-1</text>
+<text x="362" y="456" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">/recommendations</text>
+<text x="362" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">건강고민 → 맞춤 추천</text>
+<text x="362" y="499" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">(최대 5개 + 근거)</text>
+<rect x="360" y="556" width="147.6" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="433.8" y="569.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#6D28D9" text-anchor="middle">recommendations.py</text>
+<rect x="680" y="398" width="316" height="190" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="680" y="398" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<rect x="692" y="414" width="37.0" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="710.5" y="427.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="bold" fill="#305496" text-anchor="middle">GET</text>
+<rect x="931.6" y="414" width="52.4" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="957.8000000000001" y="427.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-2</text>
+<text x="694" y="456" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">/nutrients/{name}</text>
+<text x="694" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">영양소 쉬운 설명</text>
+<text x="694" y="499" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">+ 근거 출처</text>
+<rect x="692" y="556" width="104.4" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="744.2" y="569.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#6D28D9" text-anchor="middle">nutrients.py</text>
+<rect x="1012" y="398" width="316" height="190" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1012" y="398" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<rect x="1024" y="414" width="72.0" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1060.0" y="427.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="bold" fill="#305496" text-anchor="middle">GET/POST</text>
+<rect x="1263.6" y="414" width="52.4" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1289.8" y="427.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-4</text>
+<text x="1026" y="456" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">/dosage/*</text>
+<text x="1026" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">권장·상한 섭취량 조회</text>
+<text x="1026" y="499" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">중복 성분 과다섭취 경고</text>
+<rect x="1024" y="556" width="82.8" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="1065.4" y="569.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#6D28D9" text-anchor="middle">dosage.py</text>
+<rect x="1344" y="398" width="316" height="190" rx="12" fill="#FFFFFF" stroke="#C9BCF5" stroke-width="1.5"/>
+<rect x="1344" y="398" width="316" height="6" rx="0" fill="#15803D" stroke="none" stroke-width="1"/>
+<rect x="1356" y="414" width="44.0" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1378.0" y="427.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="bold" fill="#305496" text-anchor="middle">POST</text>
+<rect x="1595.6" y="414" width="52.4" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1621.8" y="427.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">RF-3</text>
+<text x="1358" y="456" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">/chat</text>
+<text x="1358" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">Tool-calling AI Agent</text>
+<text x="1358" y="499" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">(RAG + 외부 검색)</text>
+<rect x="1356" y="556" width="68.4" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1390.2" y="569.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">chat.py</text>
+<rect x="1567.0" y="556" width="81.0" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="1607.5" y="569.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6D28D9" text-anchor="middle">LLM Agent</text>
+<text x="16" y="384" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#6D28D9" text-anchor="start">FastAPI — app/main.py (5개 라우터 조립, 헬스체크 GET / 포함)</text>
+<line x1="838.0" y1="594" x2="838.0" y2="648" stroke="#6E7079" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="652.6" y="610.0" width="370.79999999999995" height="22" rx="11.0" fill="#6E7079" stroke="none" stroke-width="1"/>
+<text x="838.0" y="624.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">함수 호출 (Depends(get_db), 서비스 계층 호출)</text>
+<text x="-741.0" y="10" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#9AA0AC" text-anchor="middle" transform="rotate(-90)">SERVICE</text>
+<rect x="16" y="654" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="654" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<text x="30" y="684" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">product_service</text>
+<text x="30" y="710" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">카테고리 · 키워드 필터</text>
+<text x="30" y="729" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">SQLAlchemy ORM 조회</text>
+<rect x="28" y="796" width="59.0" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="57.5" y="809.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6E7079" text-anchor="middle">규칙 기반</text>
+<rect x="348" y="654" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="348" y="654" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<text x="362" y="684" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">recommendation_service</text>
+<text x="362" y="710" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">건강고민 ↔ 관련_증상</text>
+<text x="362" y="729" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">키워드 매칭 규칙</text>
+<rect x="360" y="796" width="59.0" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="389.5" y="809.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6E7079" text-anchor="middle">규칙 기반</text>
+<rect x="680" y="654" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="680" y="654" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<text x="694" y="684" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">nutrient_service</text>
+<text x="694" y="710" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">영양소_기능성 테이블</text>
+<text x="694" y="729" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">사전 조회형 설명</text>
+<rect x="692" y="796" width="59.0" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="721.5" y="809.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6E7079" text-anchor="middle">규칙 기반</text>
+<rect x="1012" y="654" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1012" y="654" width="316" height="6" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<text x="1026" y="684" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">dosage_service</text>
+<text x="1026" y="710" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">섭취기준 조회</text>
+<text x="1026" y="729" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">중복 성분 규칙 점검</text>
+<rect x="1024" y="796" width="59.0" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="1053.5" y="809.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6E7079" text-anchor="middle">규칙 기반</text>
+<rect x="1344" y="654" width="316" height="174" rx="12" fill="#FFFFFF" stroke="#C9BCF5" stroke-width="1.5"/>
+<rect x="1344" y="654" width="316" height="6" rx="0" fill="#15803D" stroke="none" stroke-width="1"/>
+<text x="1358" y="684" font-family="'Cascadia Code', 'Consolas', monospace" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">agent_service</text>
+<text x="1358" y="710" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">LangChain create_agent</text>
+<text x="1358" y="729" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.3" font-weight="normal" fill="#6E7079" text-anchor="start">Groq LLM · Tool-calling</text>
+<rect x="1356" y="796" width="83.6" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="1397.8" y="809.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="bold" fill="#6D28D9" text-anchor="middle">AI (LLM)</text>
+<text x="1094" y="640" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6D28D9" text-anchor="start">agent_service만 실제 LLM을 사용 — 나머지 4개는 "AI"라는 요구사항 이름과 달리 규칙 기반으로 구현됨</text>
+<text x="-1052.0" y="10" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="bold" fill="#9AA0AC" text-anchor="middle" transform="rotate(-90)">DATA / AI</text>
+<rect x="16.0" y="902" width="534.6666666666666" height="300" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16.0" y="902" width="534.6666666666666" height="6" rx="0" fill="#1D4ED8" stroke="none" stroke-width="1"/>
+<text x="32.0" y="934" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">SQLite — 건강한하루.db</text>
+<rect x="420.26666666666665" y="918" width="116.39999999999999" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="478.46666666666664" y="931.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">Week02 Day04</text>
+<rect x="32.0" y="966" width="35.2" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="49.6" y="979.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">상품</text>
+<rect x="75.2" y="966" width="36.8" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="93.6" y="979.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#6E7079" text-anchor="middle">44건</text>
+<text x="32.0" y="1000" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.8" font-weight="normal" fill="#6E7079" text-anchor="start">상품ID·상품명·주요원료·섭취방법·주의사항</text>
+<rect x="32.0" y="1024" width="78.19999999999999" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="71.1" y="1037.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">영양소_기능성</text>
+<rect x="118.19999999999999" y="1024" width="36.8" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="136.6" y="1037.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#6E7079" text-anchor="middle">54건</text>
+<text x="32.0" y="1058" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.8" font-weight="normal" fill="#6E7079" text-anchor="start">기능성·근거수준·신뢰도·출처</text>
+<rect x="32.0" y="1082" width="86.8" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="75.4" y="1095.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">영양소_섭취기준</text>
+<rect x="126.8" y="1082" width="44.4" height="20" rx="10.0" fill="#F5F6F8" stroke="none" stroke-width="1"/>
+<text x="149.0" y="1095.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#6E7079" text-anchor="middle">228건</text>
+<text x="32.0" y="1116" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.8" font-weight="normal" fill="#6E7079" text-anchor="start">연령대·성별·권장/상한섭취량</text>
+<text x="32.0" y="1162" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">사용처: product·recommendation·nutrient·dosage_service</text>
+<text x="32.0" y="1180" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">+ rag_service (문서 원본 소스)</text>
+<rect x="570.6666666666666" y="902" width="534.6666666666666" height="300" rx="12" fill="#FFFFFF" stroke="#BEE8CE" stroke-width="1"/>
+<rect x="570.6666666666666" y="902" width="534.6666666666666" height="6" rx="0" fill="#15803D" stroke="none" stroke-width="1"/>
+<text x="586.6666666666666" y="934" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">Chroma VectorDB (RAG)</text>
+<rect x="974.9333333333333" y="918" width="116.39999999999999" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1033.1333333333332" y="931.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">Week05 Day03</text>
+<rect x="586.6666666666666" y="962" width="118.8" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="646.0666666666666" y="975.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">rag_service.py</text>
+<text x="586.6666666666666" y="998" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">326개 문서 (상품 44 + 기능성 54 + 섭취기준 228)</text>
+<text x="586.6666666666666" y="1018" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">행 단위 Chunk + 메타데이터(source/label)</text>
+<text x="586.6666666666666" y="1050" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">임베딩: 로컬 Ollama qwen3-embedding:0.6b</text>
+<text x="586.6666666666666" y="1070" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#9AA0AC" text-anchor="start">(API 키 불필요, ollama serve 필요)</text>
+<rect x="586.6666666666666" y="1098" width="172.0" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="672.6666666666666" y="1111.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">similarity_search(k=3)</text>
+<text x="586.6666666666666" y="1180" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">사용처: agent_service의 내부 Tool 1개뿐</text>
+<rect x="1125.3333333333333" y="902" width="534.6666666666666" height="300" rx="12" fill="#FFFFFF" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="1125.3333333333333" y="902" width="534.6666666666666" height="6" rx="0" fill="#B91C1C" stroke="none" stroke-width="1"/>
+<text x="1141.3333333333333" y="934" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#262730" text-anchor="start">외부 API (LLM · 웹 검색)</text>
+<rect x="1554.2" y="918" width="91.8" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1600.1000000000001" y="931.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">Week04·05</text>
+<rect x="1141.3333333333333" y="962" width="114.2" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1198.4333333333332" y="975.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">Groq ChatGroq</text>
+<text x="1141.3333333333333" y="996" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">openai/gpt-oss-120b · 최종 답변 생성</text>
+<text x="1141.3333333333333" y="1016" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#9AA0AC" text-anchor="start">GROQ_API_KEY 필요</text>
+<rect x="1141.3333333333333" y="1046" width="106.80000000000001" height="20" rx="10.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1194.7333333333333" y="1059.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#B91C1C" text-anchor="middle">TavilySearch</text>
+<text x="1141.3333333333333" y="1080" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">뉴스 · 회수/안전성 경보 검색</text>
+<text x="1141.3333333333333" y="1100" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">도메인 필터: 식약처·소비자원·네이버뉴스</text>
+<text x="1141.3333333333333" y="1120" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#9AA0AC" text-anchor="start">TAVILY_API_KEY 필요</text>
+<text x="1141.3333333333333" y="1180" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">사용처: agent_service의 외부 Tool 2개</text>
+<path d="M174.0,828 L174.0,848 L283.3333333333333,848 L283.3333333333333,902" fill="none" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<path d="M506.0,828 L506.0,848 L283.3333333333333,848 L283.3333333333333,902" fill="none" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<path d="M838.0,828 L838.0,848 L283.3333333333333,848 L283.3333333333333,902" fill="none" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<path d="M1170.0,828 L1170.0,848 L283.3333333333333,848 L283.3333333333333,902" fill="none" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<path d="M1502.0,828 L1502.0,870 L838.0,870 L838.0,902" fill="none" stroke="#15803D" stroke-width="2" marker-end="url(#arrow-green)"/>
+<path d="M1502.0,828 L1502.0,884 L1392.6666666666665,884 L1392.6666666666665,902" fill="none" stroke="#B91C1C" stroke-width="2" marker-end="url(#arrow-red)"/>
+<rect x="205.0333333333333" y="837" width="156.6" height="22" rx="11.0" fill="#1D4ED8" stroke="none" stroke-width="1"/>
+<text x="283.3333333333333" y="851.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SQLAlchemy 조회</text>
+<rect x="1112.3" y="859" width="95.39999999999999" height="22" rx="11.0" fill="#15803D" stroke="none" stroke-width="1"/>
+<text x="1160.0" y="873.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">내부 Tool</text>
+<rect x="1439.6333333333332" y="873" width="95.39999999999999" height="22" rx="11.0" fill="#B91C1C" stroke="none" stroke-width="1"/>
+<text x="1487.3333333333333" y="887.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">외부 Tool</text>
+<path d="M570.6666666666666,950 L283.3333333333333,950" fill="none" stroke="#9AA0AC" stroke-width="1.25" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+<text x="427.0" y="944" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="9.5" font-weight="normal" fill="#9AA0AC" text-anchor="middle">문서 생성 시 원본 조회(최초 1회)</text>
+<rect x="16" y="1236" width="168.0" height="22" rx="11.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="100.0" y="1250.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#1D4ED8" text-anchor="middle">Week02 (데이터/DB)</text>
+<rect x="196.0" y="1236" width="216.0" height="22" rx="11.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="304.0" y="1250.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#92400E" text-anchor="middle">Week03 (Frontend 설계)</text>
+<rect x="424.0" y="1236" width="292.8" height="22" rx="11.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="570.4" y="1250.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6D28D9" text-anchor="middle">Week04 (Backend API/Service)</text>
+<rect x="728.8" y="1236" width="168.0" height="22" rx="11.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="812.8" y="1250.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#15803D" text-anchor="middle">Week05 (RAG 구축)</text>
+<rect x="908.8" y="1236" width="177.6" height="22" rx="11.0" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="997.5999999999999" y="1250.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#B91C1C" text-anchor="middle">외부 API (LLM·웹검색)</text>
+<rect x="16" y="1282" width="1648" height="210" rx="10" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="1282" width="1648" height="30" rx="10" fill="#305496" stroke="none" stroke-width="1"/>
+<rect x="16" y="1297" width="1648" height="15" rx="0" fill="#305496" stroke="none" stroke-width="1"/>
+<text x="30" y="1302" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">예시 요청 흐름 — "이 제품, 임산부가 먹어도 되나요?" (AI 상담 화면)</text>
+<text x="30" y="1334" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">1. Frontend(UI-W-005 AI상담, chat.py)가 질문과 대화 이력을 POST /chat으로 전송</text>
+<text x="30" y="1360" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">2. API(routers/chat.py)가 요청을 받아 agent_service.ask()를 호출</text>
+<text x="30" y="1386" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">3. agent_service의 Agent(Groq LLM)가 질문을 보고 search_internal_knowledge(RAG) Tool을 먼저 호출</text>
+<text x="30" y="1412" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">4. rag_service가 Chroma에서 관련 상품·섭취기준 문서를 유사도 검색 (예: 철분·비타민D의 임산부 섭취기준)</text>
+<text x="854.0" y="1334" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">5. 근거가 부족하면 Agent가 search_supplement_news/search_recall_alert(Tavily) 외부 Tool을 추가 호출</text>
+<text x="854.0" y="1360" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">6. Agent가 검색된 근거를 바탕으로 최종 답변 생성 (근거 없는 내용은 확답하지 않음)</text>
+<text x="854.0" y="1386" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">7. API가 answer + 참고_문서_목록(내부 근거) + 출처_URL_목록(외부 URL) + cs_상담_권장을 응답으로 반환</text>
+<text x="854.0" y="1412" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">8. Frontend가 답변과 함께 "📎 근거 문서" / "🌐 출처" 를 펼쳐볼 수 있게 표시</text>
+<text x="30" y="1478" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#9AA0AC" text-anchor="start">※ 이 다이어그램은 Figma에서 SVG로 바로 불러와 확인·수정할 수 있습니다.</text>
+</svg>

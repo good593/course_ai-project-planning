@@ -1,0 +1,43 @@
+%% 건강한하루 메뉴트리
+%% 화면설계서.xlsx '메뉴트리' 시트와 동일한 내용
+%% Figma 사용법: Figma/FigJam에서 Mermaid 지원 플러그인(Mermaid Chart 등)을 열고 이 파일 내용을 붙여넣거나,
+%%              https://mermaid.live 에서 SVG로 내보낸 뒤 Figma 캔버스에 드래그&드롭
+%% 범례: must(초록) / should(파랑) / could(회색) / wont(점선, MVP 이후)
+
+flowchart TD
+    ROOT["건강한하루"]
+
+    ROOT --> M1["홈"]
+    ROOT --> M2["건강고민입력"]
+    ROOT --> M3["추천결과"]
+    ROOT --> M4["상품상세"]
+    ROOT --> M5["고객센터"]
+    ROOT --> M6["마이페이지"]
+
+    M1 --> M1_1["배너 · 건강고민 카테고리<br/>(UI-W-001)"]
+
+    M2 --> M2_1["증상 · 고민 선택/입력<br/>(RF-1.1)"]
+    M2 --> M2_2["알레르기 · 복용중 제품 입력<br/>(선택)"]
+
+    M3 --> M3_1["맞춤 상품 추천 리스트 최대 5개<br/>(RF-1.2)"]
+    M3 --> M3_2["추천 근거 표시<br/>(RF-1.3)"]
+    M3 --> M3_3["권장 · 상한 섭취량 표시<br/>(RF-4.1)"]
+    M3 --> M3_4["재추천 요청<br/>(RF-1.4)"]
+
+    M4 --> M4_1["성분 쉬운 설명<br/>(RF-2.0)"]
+    M4 --> M4_2["섭취방법 · 주의사항 · 과다섭취 경고<br/>(RF-4.2, 단일 제품)"]
+
+    M5 --> M5_1["AI상담 · RAG FAQ<br/>(RF-3.0)"]
+    M5_1 --> M5_2["CS 이관<br/>(RF-3.4)"]
+
+    M6 --> M6_1["관심 상품 저장 · 이력<br/>(MVP 이후)"]
+
+    classDef must fill:#d6f5d6,stroke:#2e7d32,stroke-width:2px;
+    classDef should fill:#dbe9ff,stroke:#1565c0,stroke-width:1.5px;
+    classDef could fill:#eeeeee,stroke:#616161,stroke-width:1px;
+    classDef wont fill:#ffffff,stroke:#9e9e9e,stroke-width:1px,stroke-dasharray:4 3;
+
+    class ROOT,M1,M2,M3,M4,M1_1,M2_1,M3_1,M3_2,M3_3 must;
+    class M2_2,M3_4,M4_1,M4_2 should;
+    class M5,M5_1,M5_2 could;
+    class M6,M6_1 wont;

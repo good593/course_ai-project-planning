@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="980" viewBox="0 0 1680 980" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#6E7079"/>
+</marker>
+<marker id="arrow-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+<path d="M10,0 L0,5 L10,10 z" fill="#6E7079"/>
+</marker>
+<marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#B91C1C"/>
+</marker>
+<marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#6D28D9"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1680" height="980" rx="0" fill="#E9EBEF" stroke="none" stroke-width="1"/>
+<rect x="0.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Page Title</text>
+<rect x="0.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI 상담 Agent 아키텍처</text>
+<rect x="420.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="434.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen ID</text>
+<rect x="420.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="434.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">ARCH-AGENT-001</text>
+<rect x="840.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="854.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Author</text>
+<rect x="840.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="854.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI기획자 과정</text>
+<rect x="1260.0" y="0" width="420.0" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1274.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Date</text>
+<rect x="1260.0" y="34" width="420.0" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1274.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">2026-07-12</text>
+<text x="14" y="84" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Path : RF-3.0 AI상담(RAG FAQ) &gt; AI 상담 Agent 아키텍처 다이어그램</text>
+<text x="16" y="118" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="16" font-weight="bold" fill="#262730" text-anchor="start">AI 상담 Agent 구조 (Tool-calling — 내부 RAG + 외부 검색을 LLM이 선택)</text>
+<text x="16" y="136" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">고정된 파이프라인이 아니라, Groq LLM이 질문을 보고 내부 지식베이스(RAG)와 외부 검색(Tavily) 중 필요한 Tool을 스스로 호출합니다.</text>
+<rect x="16" y="176" width="210" height="150" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="176" width="210" height="6" rx="0" fill="#92400E" stroke="none" stroke-width="1"/>
+<circle cx="42" cy="210" r="15" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="42" y="215" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">①</text>
+<text x="66" y="215" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">사용자 질문</text>
+<text x="34" y="246" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">Streamlit 챗 UI</text>
+<text x="34" y="266" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">자연어 질문 + 대화 이력</text>
+<rect x="28" y="292" width="123.5" height="22" rx="11.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="89.75" y="306.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">st.chat_input()</text>
+<rect x="280" y="176" width="800" height="420" rx="14" fill="#FFFFFF" stroke="#C9BCF5" stroke-width="1.5"/>
+<rect x="280" y="176" width="800" height="8" rx="0" fill="#6D28D9" stroke="none" stroke-width="1"/>
+<circle cx="310" cy="216" r="15" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="310" y="221" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">②</text>
+<text x="334" y="210" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="16" font-weight="bold" fill="#262730" text-anchor="start">AI 상담 Agent</text>
+<text x="334" y="230" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">LangChain create_agent · Groq ChatGroq (Tool-calling 루프)</text>
+<rect x="933.6" y="196" width="130.4" height="20" rx="10.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="998.8000000000001" y="209.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#6D28D9" text-anchor="middle">agent_service.py</text>
+<line x1="296" y1="252" x2="1064" y2="252" stroke="#E2E4E9" stroke-width="1"/>
+<rect x="300" y="272" width="368.0" height="304" rx="10" fill="#F6FBF8" stroke="#BEE8CE" stroke-width="1"/>
+<rect x="300" y="272" width="368.0" height="6" rx="0" fill="#15803D" stroke="none" stroke-width="1"/>
+<circle cx="324" cy="302" r="13" fill="#15803D" stroke="none" stroke-width="1"/>
+<text x="324" y="307" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">③</text>
+<text x="344" y="306" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">내부 지식베이스 (RAG)</text>
+<rect x="553.2" y="288" width="102.80000000000001" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="604.6" y="301.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">Week05 Day03</text>
+<rect x="316" y="326" width="192.5" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="412.25" y="339.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">search_internal_knowledge</text>
+<text x="316" y="364" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">Chroma 벡터 검색 · Ollama 임베딩</text>
+<text x="316" y="382" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">건강한하루.db (상품·기능성·섭취기준)</text>
+<text x="316" y="400" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">→ 근거 문서 라벨 [근거 N] 함께 반환</text>
+<rect x="316" y="544" width="116.60000000000001" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="374.3" y="557.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">rag_service.py</text>
+<rect x="692.0" y="272" width="368.0" height="304" rx="10" fill="#F5F8FE" stroke="#BFD7F8" stroke-width="1"/>
+<rect x="692.0" y="272" width="368.0" height="6" rx="0" fill="#1D4ED8" stroke="none" stroke-width="1"/>
+<circle cx="716.0" cy="302" r="13" fill="#1D4ED8" stroke="none" stroke-width="1"/>
+<text x="716.0" y="307" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">④</text>
+<text x="736.0" y="306" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="bold" fill="#262730" text-anchor="start">외부 검색 (Tavily)</text>
+<rect x="945.2" y="288" width="102.80000000000001" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="996.6" y="301.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">Week04 Day04</text>
+<rect x="708.0" y="326" width="171.8" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="793.9" y="339.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">search_supplement_news</text>
+<rect x="887.8" y="326" width="151.1" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="963.3499999999999" y="339.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">search_recall_alert</text>
+<text x="708.0" y="364" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">내부 지식베이스에 없는 질문만 사용</text>
+<text x="708.0" y="382" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">도메인 필터: 식약처·소비자원·네이버뉴스</text>
+<text x="708.0" y="400" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11.5" font-weight="normal" fill="#6E7079" text-anchor="start">→ 결과의 출처 URL을 그대로 반환</text>
+<rect x="708.0" y="544" width="102.80000000000001" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="759.4" y="557.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">TavilySearch</text>
+<line x1="428.79999999999995" y1="252" x2="428.79999999999995" y2="272" stroke="#6D28D9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="539.2" y1="272" x2="539.2" y2="252" stroke="#6D28D9" stroke-width="1.5" marker-start="url(#arrow-rev)"/>
+<text x="484.0" y="266" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="9.5" font-weight="normal" fill="#6D28D9" text-anchor="middle">Tool 호출 ⇄ 결과</text>
+<line x1="820.8" y1="252" x2="820.8" y2="272" stroke="#6D28D9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="931.2" y1="272" x2="931.2" y2="252" stroke="#6D28D9" stroke-width="1.5" marker-start="url(#arrow-rev)"/>
+<text x="876.0" y="266" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="9.5" font-weight="normal" fill="#6D28D9" text-anchor="middle">Tool 호출 ⇄ 결과</text>
+<rect x="1120" y="216" width="300" height="340" rx="12" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1120" y="216" width="300" height="6" rx="0" fill="#15803D" stroke="none" stroke-width="1"/>
+<circle cx="1146" cy="250" r="15" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="1146" y="255" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">⑤</text>
+<text x="1170" y="255" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">응답 반환</text>
+<rect x="1305.2" y="234" width="102.80000000000001" height="20" rx="10.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1356.6000000000001" y="247.6" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#15803D" text-anchor="middle">ChatResponse</text>
+<rect x="1136" y="282" width="61.400000000000006" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1166.7" y="295.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">answer</text>
+<text x="1136" y="318" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">최종 답변 텍스트</text>
+<rect x="1136" y="344" width="75.2" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1173.6" y="357.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">참고_문서_목록</text>
+<text x="1136" y="380" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">내부 RAG 근거 라벨 (RF-3.3)</text>
+<rect x="1136" y="406" width="82.1" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1177.05" y="419.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">출처_URL_목록</text>
+<text x="1136" y="442" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">외부 검색 출처 URL</text>
+<rect x="1136" y="468" width="75.2" height="20" rx="10.0" fill="#EEF1F6" stroke="none" stroke-width="1"/>
+<text x="1173.6" y="481.6" font-family="'Cascadia Code', 'Consolas', monospace" font-size="10" font-weight="normal" fill="#305496" text-anchor="middle">cs_상담_권장</text>
+<text x="1136" y="504" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">회수·경보 발견 시 true</text>
+<line x1="1080" y1="386.0" x2="1120" y2="386.0" stroke="#6E7079" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="226" y1="251.0" x2="280" y2="251.0" stroke="#6E7079" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1120" y="580" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">→ Streamlit 채팅창에 답변 · 근거 문서 · 출처가 함께 표시됩니다.</text>
+<path d="M876.0,576 L876.0,616" fill="none" stroke="#B91C1C" stroke-width="1.75" stroke-dasharray="5,4" marker-end="url(#arrow-red)"/>
+<rect x="692.0" y="616" width="368.0" height="110" rx="10" fill="#FFFFFF" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="692.0" y="616" width="368.0" height="26" rx="10" fill="#B91C1C" stroke="none" stroke-width="1"/>
+<rect x="692.0" y="629" width="368.0" height="13" rx="0" fill="#B91C1C" stroke="none" stroke-width="1"/>
+<text x="706.0" y="634" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="start">CS 상담 연결 (Human-in-the-loop)</text>
+<text x="706.0" y="664" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#262730" text-anchor="start">search_recall_alert가 회수·경보 발견</text>
+<text x="706.0" y="682" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">→ cs_상담_권장=true, 버튼만 노출</text>
+<text x="706.0" y="700" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">(자동 연결 아님, 프론트엔드에서 클릭 필요)</text>
+<rect x="16" y="766" width="1648" height="130" rx="10" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="16" y="766" width="1648" height="30" rx="10" fill="#6E7079" stroke="none" stroke-width="1"/>
+<rect x="16" y="781" width="1648" height="15" rx="0" fill="#6E7079" stroke="none" stroke-width="1"/>
+<text x="32" y="786" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Out of Scope — Agent가 답변하지 않는 범위 (System Prompt 원칙 6)</text>
+<rect x="36.0" y="814" width="390.0" height="34" rx="8" fill="#F5F6F8" stroke="#E2E4E9" stroke-width="1"/>
+<text x="231.0" y="835" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#6E7079" text-anchor="middle">진단 · 처방 단정</text>
+<rect x="442.0" y="814" width="390.0" height="34" rx="8" fill="#F5F6F8" stroke="#E2E4E9" stroke-width="1"/>
+<text x="637.0" y="835" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#6E7079" text-anchor="middle">개인 건강상태 판단</text>
+<rect x="848.0" y="814" width="390.0" height="34" rx="8" fill="#F5F6F8" stroke="#E2E4E9" stroke-width="1"/>
+<text x="1043.0" y="835" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#6E7079" text-anchor="middle">구매·신고 대행 실행</text>
+<rect x="1254.0" y="814" width="390.0" height="34" rx="8" fill="#F5F6F8" stroke="#E2E4E9" stroke-width="1"/>
+<text x="1449.0" y="835" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#6E7079" text-anchor="middle">환불 · 배송 문의(별도 CS FAQ)</text>
+<text x="32" y="878" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">근거가 없으면 “확인된 자료가 없습니다” 라고 답한다 (System Prompt 원칙 4, 자동 분기 아닌 프롬프트 지침)</text>
+<rect x="16" y="926" width="158.0" height="22" rx="11.0" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="95.0" y="940.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#92400E" text-anchor="middle">Frontend (Streamlit)</text>
+<rect x="186.0" y="926" width="95.9" height="22" rx="11.0" fill="#EDE9FE" stroke="none" stroke-width="1"/>
+<text x="233.95" y="940.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6D28D9" text-anchor="middle">AI 상담 Agent</text>
+<rect x="293.9" y="926" width="199.4" height="22" rx="11.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="393.59999999999997" y="940.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#15803D" text-anchor="middle">내부 RAG Tool (Week05 Day03)</text>
+<rect x="505.29999999999995" y="926" width="192.5" height="22" rx="11.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="601.55" y="940.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#1D4ED8" text-anchor="middle">외부 검색 Tool (Week04 Day04)</text>
+<rect x="709.8" y="926" width="54.5" height="22" rx="11.0" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="737.05" y="940.78" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#15803D" text-anchor="middle">응답 필드</text>
+<text x="16" y="970" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#9AA0AC" text-anchor="start">※ 이 다이어그램은 Figma에서 SVG로 바로 불러와 확인·수정할 수 있습니다.</text>
+</svg>

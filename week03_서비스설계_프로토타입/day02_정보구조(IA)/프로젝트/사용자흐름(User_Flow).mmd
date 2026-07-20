@@ -1,0 +1,49 @@
+%% 건강한하루 User Flow
+%% 목표: 사용자가 건강 고민을 입력해 근거 기반 맞춤 상품을 추천받고,
+%%      섭취량을 확인한 뒤 안전하게 구매를 결정한다. (Day01 MVP 정의문 기준)
+%% Figma 사용법: Figma에서 Mermaid를 지원하는 플러그인(Mermaid Diagram / Mermaid to Figma 등)을 열고
+%%              이 파일 내용을 붙여넣으면 프레임/노드로 변환할 수 있습니다.
+%% 범례: must(초록) / should(파랑) / could(회색) / 예외·경고(주황)
+
+flowchart TD
+    START(["홈 진입"]) --> A["건강 고민 카테고리 선택"]
+    A --> B["건강 고민 · 증상 입력"]
+    B --> C{"필수 정보를<br/>입력했는가?"}
+    C -- 아니오 --> C1["부족한 정보 안내<br/>재입력 요청"] --> B
+    C -- 예 --> D["AI 맞춤 상품 추천 생성"]
+
+    D --> E{"추천 결과가<br/>있는가?"}
+    E -- 아니오 --> E1["빈 결과 안내<br/>고민 다시 입력 유도"] --> B
+    E -- 예 --> F["추천 결과 화면<br/>상품 최대 5개 + 추천 근거"]
+
+    F --> G["제품별 권장 · 상한<br/>섭취량 표시"]
+    G --> H{"사용자의<br/>다음 행동은?"}
+
+    H -- "결과가 마음에 안 듦" --> I["재추천 요청"] --> D
+    H -- "성분이 궁금함" --> J["AI 성분 쉬운 설명 보기"] --> F
+    H -- "더 물어보고 싶음" --> K["AI 상담 · RAG FAQ 질문"]
+    H -- "마음에 드는 제품 선택" --> L["상품 상세 페이지 이동"]
+
+    K --> K1["근거 문서 인용 답변 생성"]
+    K1 --> K2{"답변 신뢰도가<br/>충분한가?"}
+    K2 -- 예 --> F
+    K2 -- 아니오 --> K3["CS 상담으로 이관"] --> ENDCS(["CS 상담 종료"])
+
+    L --> M{"여러 제품 합산 시<br/>상한섭취량을 초과하는가?"}
+    M -- 예 --> N["과다섭취 경고 문구 표시"] --> O["섭취방법 · 주의사항 확인"]
+    M -- 아니오 --> O
+
+    O --> P["구매 결정"]
+    P --> END(["구매 완료"])
+
+    classDef must fill:#d6f5d6,stroke:#2e7d32,stroke-width:2px;
+    classDef should fill:#dbe9ff,stroke:#1565c0,stroke-width:1.5px;
+    classDef could fill:#eeeeee,stroke:#616161,stroke-width:1px;
+    classDef warn fill:#ffe9d6,stroke:#e65100,stroke-width:1.5px;
+    classDef decision fill:#fff9db,stroke:#f9a825,stroke-width:1.5px;
+
+    class START,A,B,D,F,G,L,O,P,END must;
+    class J,I should;
+    class K,K1,K2,K3,ENDCS could;
+    class C1,E1,N warn;
+    class C,E,H,M,K2 decision;

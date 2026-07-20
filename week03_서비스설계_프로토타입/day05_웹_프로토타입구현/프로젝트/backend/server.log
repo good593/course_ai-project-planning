@@ -1,0 +1,10 @@
+INFO:     Started server process [23996]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58944 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:58947 - "POST /recommendations HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:58949 - "GET /products?%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC=%EB%B9%84%ED%83%80%EB%AF%BC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58950 - "POST /recommendations HTTP/1.1" 200 OK

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1678" height="656" viewBox="0 0 1678 656" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<rect x="0" y="0" width="1678" height="656" fill="#E9EBEF"/>
+<rect x="0" y="0" width="1678" height="96" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Page Title</text>
+<rect x="0.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">홈</text>
+<rect x="419.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen ID</text>
+<rect x="419.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">UI-W-001</text>
+<rect x="839.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Author</text>
+<rect x="839.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI기획자 과정</text>
+<rect x="1258.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Date</text>
+<rect x="1258.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">2026-07-11</text>
+<text x="14" y="84" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen Path : 홈</text>
+<rect x="0" y="116" width="994" height="40" rx="10" fill="#E4E6EA" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="22" cy="136.0" r="6" fill="#FF5F57"/>
+<circle cx="40" cy="136.0" r="6" fill="#FEBC2E"/>
+<circle cx="58" cy="136.0" r="6" fill="#28C840"/>
+<rect x="90" y="125" width="884" height="22" rx="11" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="100" y="141" font-family="'Cascadia Code', 'Consolas', monospace" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">localhost:8501</text>
+<rect x="0" y="156" width="994" height="440" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0" y="156" width="250" height="440" rx="0" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="20" y="196" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="17" font-weight="bold" fill="#262730" text-anchor="start">🥗 건강한하루</text>
+<text x="20" y="216" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">AI 맞춤 영양제 추천</text>
+<rect x="12" y="246" width="226" height="36" rx="8" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<rect x="12" y="246" width="4" height="36" rx="2" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="30" y="269" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FF4B4B" text-anchor="start">홈</text>
+<text x="30" y="311" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">건강고민입력</text>
+<text x="30" y="353" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">추천결과</text>
+<text x="30" y="395" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">상품상세</text>
+<text x="30" y="437" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">AI상담(고객센터)</text>
+<text x="30" y="479" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">마이페이지</text>
+<circle cx="264" cy="188" r="13" fill="#FF4B4B"/>
+<text x="264" y="193" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<rect x="282" y="176" width="680" height="46" rx="8" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="282" y="206" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">🥗 건강한하루</text>
+<rect x="752" y="184" width="210" height="30" rx="15" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="767" y="204" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">🔍 증상·영양소 검색</text>
+<circle cx="264" cy="256" r="13" fill="#FF4B4B"/>
+<text x="264" y="261" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="282" y="244" width="680" height="130" rx="12" fill="#FFF6F6" stroke="#FFF1F1" stroke-width="1"/>
+<text x="306" y="284" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">오늘도 건강한하루 🌿</text>
+<text x="306" y="310" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">건강 고민을 알려주시면 AI가 근거와 함께 맞춤 상품을</text>
+<text x="306" y="328" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">추천해드려요.</text>
+<rect x="306" y="320" width="176" height="38" rx="8" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="394.0" y="344.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">건강고민 시작하기 →</text>
+<circle cx="264" cy="408" r="13" fill="#FF4B4B"/>
+<text x="264" y="413" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<rect x="282" y="404" width="74" height="36" rx="18.0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="319.0" y="426.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="middle">눈 피로</text>
+<rect x="366" y="404" width="61" height="36" rx="18.0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="396.5" y="426.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="middle">피로감</text>
+<rect x="437" y="404" width="48" height="36" rx="18.0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="461.0" y="426.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="middle">면역</text>
+<rect x="495" y="404" width="61" height="36" rx="18.0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="525.5" y="426.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="middle">장건강</text>
+<rect x="566" y="404" width="48" height="36" rx="18.0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="590.0" y="426.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="middle">수면</text>
+<rect x="1026" y="116" width="620" height="206" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="116" width="620" height="34" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="142" width="620" height="8" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="139" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="start">Description</text>
+<line x1="1026" y1="150" x2="1646" y2="150" stroke="#E2E4E9"/>
+<circle cx="1048" cy="177.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="182.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="1070" y="170" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">상단 헤더</text>
+<text x="1070" y="188" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">로고와 증상·영양소 검색창을 표시한다.</text>
+<rect x="1328" y="160" width="300" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1478.0" y="174.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.set_page_config(page_title=...) + st.columns([8,1])</text>
+<line x1="1026" y1="204" x2="1646" y2="204" stroke="#E2E4E9"/>
+<circle cx="1048" cy="231.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="236.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="1070" y="224" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">메인 배너</text>
+<text x="1070" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">서비스 소개 문구와 &apos;건강고민 시작하기&apos; 버튼을 표시한다.</text>
+<rect x="1328" y="214" width="300" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1478.0" y="228.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.title() / st.caption() / st.button(&apos;...&apos;, type=&apos;primary&apos;)</text>
+<line x1="1026" y1="258" x2="1646" y2="258" stroke="#E2E4E9"/>
+<circle cx="1048" cy="285.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="290.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1070" y="278" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">카테고리 칩</text>
+<text x="1070" y="296" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">눈 피로 · 피로감 · 면역 · 장건강 등 자주 찾는 고민을 바로가기 칩으로 제공한다.</text>
+<rect x="1364.0" y="268" width="264.0" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1496.0" y="282.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.columns(n) 반복 + st.button(chip_label)</text>
+<rect x="1026" y="342" width="620" height="164" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="342" width="620" height="34" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="368" width="620" height="8" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="365" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="start">Check Point (기능 · 로직 설명)</text>
+<text x="1042" y="398" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">1. &apos;건강고민 시작하기&apos; 버튼 클릭 시 건강고민입력(UI-W-002)으로 이동한다.</text>
+<text x="1042" y="428" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">2. 카테고리 칩 클릭 시 해당 고민이 선택된 상태로 건강고민입력 화면에 진입한다(st.session_state로</text>
+<text x="1042" y="448" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">선택값 전달).</text>
+<text x="1042" y="478" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">3. 사이드바의 &apos;AI상담&apos;은 Could 범위(RF-3.0)로, MVP 단계에서는 배지로 &apos;준비중&apos; 표시만 한다.</text>
+</svg>

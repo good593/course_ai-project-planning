@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1678" height="676" viewBox="0 0 1678 676" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<rect x="0" y="0" width="1678" height="676" fill="#E9EBEF"/>
+<rect x="0" y="0" width="1678" height="96" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Page Title</text>
+<rect x="0.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">맞춤 추천 결과</text>
+<rect x="419.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen ID</text>
+<rect x="419.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">UI-W-003</text>
+<rect x="839.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Author</text>
+<rect x="839.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI기획자 과정</text>
+<rect x="1258.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Date</text>
+<rect x="1258.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">2026-07-11</text>
+<text x="14" y="84" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen Path : 홈 &gt; 건강고민입력 &gt; 추천결과</text>
+<rect x="0" y="116" width="994" height="40" rx="10" fill="#E4E6EA" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="22" cy="136.0" r="6" fill="#FF5F57"/>
+<circle cx="40" cy="136.0" r="6" fill="#FEBC2E"/>
+<circle cx="58" cy="136.0" r="6" fill="#28C840"/>
+<rect x="90" y="125" width="884" height="22" rx="11" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="100" y="141" font-family="'Cascadia Code', 'Consolas', monospace" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">localhost:8501</text>
+<rect x="0" y="156" width="994" height="460" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0" y="156" width="250" height="460" rx="0" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="20" y="196" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="17" font-weight="bold" fill="#262730" text-anchor="start">🥗 건강한하루</text>
+<text x="20" y="216" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">AI 맞춤 영양제 추천</text>
+<text x="30" y="269" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">홈</text>
+<text x="30" y="311" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">건강고민입력</text>
+<rect x="12" y="330" width="226" height="36" rx="8" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<rect x="12" y="330" width="4" height="36" rx="2" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="30" y="353" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FF4B4B" text-anchor="start">추천결과</text>
+<text x="30" y="395" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">상품상세</text>
+<text x="30" y="437" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">AI상담(고객센터)</text>
+<text x="30" y="479" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">마이페이지</text>
+<circle cx="264" cy="188" r="13" fill="#FF4B4B"/>
+<text x="264" y="193" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="282" y="190" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">선택한 건강고민</text>
+<rect x="282" y="198" width="72" height="24" rx="12.0" fill="#E8F0FE" stroke="#4A7DFF" stroke-width="1"/>
+<text x="318.0" y="214.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#1D4ED8" text-anchor="middle">눈 피로</text>
+<rect x="362" y="198" width="59" height="24" rx="12.0" fill="#E8F0FE" stroke="#4A7DFF" stroke-width="1"/>
+<text x="391.5" y="214.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#1D4ED8" text-anchor="middle">피로감</text>
+<text x="962" y="214" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#FF4B4B" text-anchor="end">고민 다시 입력 ✎</text>
+<circle cx="264" cy="254" r="13" fill="#FF4B4B"/>
+<text x="264" y="259" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="282.0" y="242" width="217.33333333333334" height="168" rx="10" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="294.0" y="254" width="193.33333333333334" height="64" rx="6" fill="#F0F2F6" stroke="none" stroke-width="1"/>
+<text x="390.6666666666667" y="290" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="22" font-weight="normal" fill="#262730" text-anchor="middle">🧴</text>
+<text x="296.0" y="338" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#262730" text-anchor="start">루테인 지아잔틴</text>
+<text x="296.0" y="356" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">눈 피로 완화 · 항산화</text>
+<text x="296.0" y="369" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">기능성</text>
+<rect x="296.0" y="380" width="189.33333333333334" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="390.6666666666667" y="394.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">근거: MFDS 고시</text>
+<rect x="513.3333333333334" y="242" width="217.33333333333334" height="168" rx="10" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="525.3333333333334" y="254" width="193.33333333333334" height="64" rx="6" fill="#F0F2F6" stroke="none" stroke-width="1"/>
+<text x="622.0" y="290" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="22" font-weight="normal" fill="#262730" text-anchor="middle">🧴</text>
+<text x="527.3333333333334" y="338" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#262730" text-anchor="start">비타민B군 컴플렉스</text>
+<text x="527.3333333333334" y="356" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">눈 피로 완화 · 항산화</text>
+<text x="527.3333333333334" y="369" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">기능성</text>
+<rect x="527.3333333333334" y="380" width="189.33333333333334" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="622.0" y="394.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">근거: MFDS 고시</text>
+<rect x="744.6666666666667" y="242" width="217.33333333333334" height="168" rx="10" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="756.6666666666667" y="254" width="193.33333333333334" height="64" rx="6" fill="#F0F2F6" stroke="none" stroke-width="1"/>
+<text x="853.3333333333334" y="290" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="22" font-weight="normal" fill="#262730" text-anchor="middle">🧴</text>
+<text x="758.6666666666667" y="338" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#262730" text-anchor="start">오메가3 900</text>
+<text x="758.6666666666667" y="356" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">눈 피로 완화 · 항산화</text>
+<text x="758.6666666666667" y="369" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="normal" fill="#6E7079" text-anchor="start">기능성</text>
+<rect x="758.6666666666667" y="380" width="189.33333333333334" height="20" rx="10.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="853.3333333333334" y="394.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10" font-weight="normal" fill="#1D4ED8" text-anchor="middle">근거: MFDS 고시</text>
+<text x="962" y="402" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="end">+ 2개 더보기 →</text>
+<circle cx="264" cy="456" r="13" fill="#FF4B4B"/>
+<text x="264" y="461" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<rect x="282" y="444" width="200" height="44" rx="8" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="296" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#1D4ED8" text-anchor="start">권장섭취량</text>
+<text x="296" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8" text-anchor="start">400mg / 일</text>
+<rect x="496" y="444" width="200" height="44" rx="8" fill="#FFF4E5" stroke="none" stroke-width="1"/>
+<text x="510" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#B45309" text-anchor="start">상한섭취량</text>
+<text x="510" y="480" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#B45309" text-anchor="start">1,000mg / 일</text>
+<circle cx="264" cy="532" r="13" fill="#FF4B4B"/>
+<text x="264" y="537" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<rect x="282" y="528" width="160" height="38" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="362" y="552" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#262730" text-anchor="middle">🔄 재추천 받기</text>
+<text x="472" y="552" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#FF4B4B" text-anchor="start">성분 더 알아보기 →</text>
+<rect x="1026" y="116" width="620" height="260" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="116" width="620" height="34" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="142" width="620" height="8" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="139" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="start">Description</text>
+<line x1="1026" y1="150" x2="1646" y2="150" stroke="#E2E4E9"/>
+<circle cx="1048" cy="177.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="182.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="1070" y="170" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">선택 요약 태그</text>
+<text x="1070" y="188" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">입력한 건강고민을 태그로 요약하고 &apos;고민 다시 입력&apos; 링크를 제공한다.</text>
+<rect x="1328" y="160" width="300" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1478.0" y="174.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.caption() + st.button(&apos;고민 다시 입력&apos;, type=&apos;tertiary&apos;)</text>
+<line x1="1026" y1="204" x2="1646" y2="204" stroke="#E2E4E9"/>
+<circle cx="1048" cy="231.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="236.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="1070" y="224" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">추천 상품 카드 리스트</text>
+<text x="1070" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">추천 상품 카드를 최대 5개까지 상품명 · 핵심 기능성 · 추천 근거 요약과 함께 보여준다.</text>
+<rect x="1351.4" y="214" width="276.59999999999997" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1489.7" y="228.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.columns(5) 안에 st.container(border=True)</text>
+<line x1="1026" y1="258" x2="1646" y2="258" stroke="#E2E4E9"/>
+<circle cx="1048" cy="285.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="290.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1070" y="278" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">섭취량 배지</text>
+<text x="1070" y="296" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">권장/상한 섭취량을 요약 배지로 표시한다.</text>
+<rect x="1345.1" y="268" width="282.9" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1486.55" y="282.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.columns(2) + st.metric() 또는 st.caption()</text>
+<line x1="1026" y1="312" x2="1646" y2="312" stroke="#E2E4E9"/>
+<circle cx="1048" cy="339.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="344.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="1070" y="332" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">하단 액션</text>
+<text x="1070" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">&apos;재추천 받기&apos; 버튼과 &apos;성분 더 알아보기&apos; 링크를 제공한다.</text>
+<rect x="1445.9" y="322" width="182.1" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1536.95" y="336.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.columns(2) + st.button()</text>
+<rect x="1026" y="396" width="620" height="194" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="396" width="620" height="34" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="422" width="620" height="8" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="419" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="start">Check Point (기능 · 로직 설명)</text>
+<text x="1042" y="452" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">1. 카드 클릭 시 상품상세(UI-H-004)로 이동한다(카드 전체를 st.container + st.button으로</text>
+<text x="1042" y="472" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">클릭 처리).</text>
+<text x="1042" y="502" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">2. 추천 근거 텍스트는 영양소_기능성_추천DB의 근거_수준 · 출처를 요약해 표시한다.</text>
+<text x="1042" y="532" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">3. 추천 결과가 0건이면 빈결과안내(UI-H-003-1)를 오버레이로 표시한다.</text>
+<text x="1042" y="562" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">4. &apos;재추천 받기&apos; 클릭 시 동일 조건으로 추천을 재생성한다(RF-1.4, Should).</text>
+</svg>

@@ -1,0 +1,35 @@
+[project]
+name = "healthy-day-api"
+version = "0.3.0"
+description = "건강한하루 - AI 맞춤형 영양제 추천 서비스 FastAPI 백엔드 (규칙 기반 기능 + RF-3 AI상담 RAG Agent)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0,<0.120.0",
+    "uvicorn[standard]>=0.32.0,<0.35.0",
+    "sqlalchemy>=2.0.0",
+    "python-dotenv==1.1.1",
+    "langchain==1.0.2",
+    "langchain-core==1.0.0",
+    "langchain-groq==1.0.0",
+    "langchain-tavily==0.2.12",
+    "langgraph==1.0.1",
+    "chromadb==1.3.2",
+    "langchain-chroma==1.0.0",
+    "langchain-ollama==1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "openpyxl>=3.1.5",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+# 학생들이 backend/ 안에서 `uv run pytest` 만 실행해도 상위 test/backend 폴더를 찾도록 설정한다.
+testpaths = ["../test/backend"]
+pythonpath = ["."]
+# AI상담(RF-3) 테스트가 print()로 남기는 실제 답변을 --junitxml 리포트에도 남겨서
+# 사람이 나중에 'AI 응답 평가 척도'로 채점할 때 참고할 수 있게 한다.
+junit_logging = "all"

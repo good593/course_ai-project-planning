@@ -1,0 +1,16 @@
+[project]
+name = "venv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter==1.1.1",
+    "langchain==1.0.2",
+    "langchain-community==0.4",
+    "langchain-core==1.0.0",
+    "langchain-groq==1.0.0",
+    "langchain-ollama==1.0.0",
+    "langsmith==0.4.38",
+    "python-dotenv==1.1.1",
+]

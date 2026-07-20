@@ -1,0 +1,20 @@
+[project]
+name = "healthy-day-frontend"
+version = "0.1.0"
+description = "건강한하루 - Streamlit 프론트엔드 (backend/ FastAPI 서버를 호출하는 MVP 화면)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.38.0,<2.0.0",
+    "requests>=2.31.0,<3.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+# 학생들이 frontend/ 안에서 `uv run pytest` 만 실행해도 상위 test/frontend 폴더를 찾도록 설정한다.
+testpaths = ["../test/frontend"]
+pythonpath = ["streamlit_app"]

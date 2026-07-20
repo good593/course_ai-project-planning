@@ -1,0 +1,25 @@
+[project]
+name = "rag-evaluations"
+version = "0.1.0"
+description = "RAG service evaluation lecture materials with RAGAS, LangChain, Chroma, Groq, and Ollama"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb==1.3.2",
+    "datasets>=5.0.0",
+    "jupyter==1.1.1",
+    "langchain==1.0.8",
+    "langchain-chroma==1.0.0",
+    "langchain-community==0.4.1",
+    "langchain-core==1.1.0",
+    "langchain-experimental==0.4.0",
+    "langchain-groq==1.0.0",
+    "langchain-ollama==1.0.0",
+    "langchain-text-splitters==1.0.0",
+    "pandas>=3.0.3",
+    "pdfplumber==0.11.8",
+    "python-dotenv>=1.2.2",
+    "ragas==0.3.9",
+    "rapidfuzz>=3.14.5",
+    "scikit-learn==1.7.2",
+]

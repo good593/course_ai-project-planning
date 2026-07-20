@@ -1,0 +1,50 @@
+%% 건강한하루 프로세스 플로우 차트
+%% 화면설계서.xlsx '프로세스플로우차트' 시트와 동일한 내용
+%% 목표: 건강 고민을 입력해 근거 기반 맞춤 상품을 추천받고, 섭취량을 확인해 안전하게 구매를 결정한다
+%% Figma 사용법: Figma/FigJam에서 Mermaid 지원 플러그인(Mermaid Chart 등)을 열고 이 파일 내용을 붙여넣거나,
+%%              https://mermaid.live 에서 SVG로 내보낸 뒤 Figma 캔버스에 드래그&드롭
+%% 범례: must(초록) / should(파랑) / could(회색) / 예외·경고(주황) / 판단(노랑)
+
+flowchart TD
+    START(["Step1. 홈 진입<br/>UI-W-001"]) --> S1["건강고민 카테고리 선택<br/>또는 시작 버튼 클릭"]
+    S1 --> S2["Step2. 건강고민입력<br/>UI-W-002<br/>증상/고민 선택·입력"]
+
+    S2 --> D1{"필수 정보를<br/>입력했는가?"}
+    D1 -- 아니오 --> E1["E1. 부족한 정보 안내<br/>입력 필드로 포커스 이동"] --> S2
+    D1 -- 예 --> S3["Step3. 추천 생성(서버)<br/>AI 영양소·상품 매칭"]
+
+    S3 --> D2{"추천 결과가<br/>있는가?"}
+    D2 -- 아니오 --> E2["E2. 빈 결과 안내<br/>UI-H-003-1"] --> S2
+    D2 -- 예 --> S4["Step4. 추천결과 화면<br/>UI-W-003<br/>추천 상품·근거·섭취량 확인"]
+
+    S4 --> D3{"사용자의<br/>다음 행동은?"}
+    D3 -- 재추천 --> S3
+    D3 -- "성분 궁금함(Should)" --> S4a["성분 쉬운 설명 보기<br/>RF-2.0"] --> S4
+    D3 -- "더 물어보고 싶음(Could)" --> C1["AI 상담·RAG FAQ<br/>UI-W-005"]
+    D3 -- 상세 이동 --> S5["Step5. 상품상세<br/>UI-H-004<br/>성분 설명 · 섭취방법 확인"]
+
+    C1 --> C2["근거 문서 인용 답변 생성"]
+    C2 --> D4{"답변 신뢰도가<br/>충분한가?"}
+    D4 -- 예 --> S4
+    D4 -- 아니오 --> E3["E3. CS 상담 연결 강조<br/>CS 이관"] --> ENDCS(["CS 상담 종료"])
+
+    S5 --> D5{"상한섭취량을<br/>초과하는가?"}
+    D5 -- 예 --> E4["과다섭취 경고 배너 노출<br/>규칙 기반 판단"] --> S6["섭취방법 · 주의사항 확인"]
+    D5 -- 아니오 --> S6
+
+    S6 --> S7["Step6. 구매 결정"]
+    S7 --> END(["구매 완료"])
+
+    E5["E4. 복수 제품 합산 상한섭취량 초과<br/>MVP 범위 밖(Won't) · 단일 제품 기준만 우선 적용"]
+
+    classDef must fill:#d6f5d6,stroke:#2e7d32,stroke-width:2px;
+    classDef should fill:#dbe9ff,stroke:#1565c0,stroke-width:1.5px;
+    classDef could fill:#eeeeee,stroke:#616161,stroke-width:1px;
+    classDef warn fill:#ffe9d6,stroke:#e65100,stroke-width:1.5px;
+    classDef decision fill:#fff9db,stroke:#f9a825,stroke-width:1.5px;
+
+    class START,S1,S2,S3,S4,S5,S6,S7,END must;
+    class S4a should;
+    class C1,C2,ENDCS could;
+    class E1,E2,E3,E4,E5 warn;
+    class D1,D2,D3,D4,D5 decision;

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1678" height="656" viewBox="0 0 1678 656" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<rect x="0" y="0" width="1678" height="656" fill="#E9EBEF"/>
+<rect x="0" y="0" width="1678" height="96" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Page Title</text>
+<rect x="0.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="14.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI 상담(RAG FAQ)</text>
+<rect x="419.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen ID</text>
+<rect x="419.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="433.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">UI-W-005</text>
+<rect x="839.0" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Author</text>
+<rect x="839.0" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="853.0" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">AI기획자 과정</text>
+<rect x="1258.5" y="0" width="419.5" height="34" rx="0" fill="#F5F6F8" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="22" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Date</text>
+<rect x="1258.5" y="34" width="419.5" height="40" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1272.5" y="60" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#262730" text-anchor="start">2026-07-11</text>
+<text x="14" y="84" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">Screen Path : 고객센터 &gt; AI상담</text>
+<rect x="0" y="116" width="994" height="40" rx="10" fill="#E4E6EA" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="22" cy="136.0" r="6" fill="#FF5F57"/>
+<circle cx="40" cy="136.0" r="6" fill="#FEBC2E"/>
+<circle cx="58" cy="136.0" r="6" fill="#28C840"/>
+<rect x="90" y="125" width="884" height="22" rx="11" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="100" y="141" font-family="'Cascadia Code', 'Consolas', monospace" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">localhost:8501</text>
+<rect x="0" y="156" width="994" height="440" rx="0" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="0" y="156" width="250" height="440" rx="0" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="20" y="196" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="17" font-weight="bold" fill="#262730" text-anchor="start">🥗 건강한하루</text>
+<text x="20" y="216" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#6E7079" text-anchor="start">AI 맞춤 영양제 추천</text>
+<text x="30" y="269" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">홈</text>
+<text x="30" y="311" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">건강고민입력</text>
+<text x="30" y="353" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">추천결과</text>
+<text x="30" y="395" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">상품상세</text>
+<rect x="12" y="414" width="226" height="36" rx="8" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<rect x="12" y="414" width="4" height="36" rx="2" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="30" y="437" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#FF4B4B" text-anchor="start">AI상담(고객센터)</text>
+<text x="30" y="479" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#6E7079" text-anchor="start">마이페이지</text>
+<circle cx="264" cy="188" r="13" fill="#FF4B4B"/>
+<text x="264" y="193" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<rect x="742" y="176" width="220" height="42" rx="12" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="758" y="202" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#FFFFFF" text-anchor="start">루테인이랑 오메가3 같이 먹어도 돼요?</text>
+<rect x="282" y="232" width="400" height="70" rx="12" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="298" y="254" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">네, 두 성분은 함께 섭취해도 되는 조합이에요. 다만 다른 제품과 중복</text>
+<text x="298" y="270" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">섭취 시 상한섭취량을 확인해 주세요.</text>
+<circle cx="264" cy="360" r="13" fill="#FF4B4B"/>
+<text x="264" y="365" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="282" y="348" width="260" height="22" rx="11.0" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="412.0" y="363.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="normal" fill="#1D4ED8" text-anchor="middle">📎 출처: 식품안전나라 기능성 정보</text>
+<circle cx="264" cy="418" r="13" fill="#FF4B4B"/>
+<text x="264" y="423" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<rect x="282" y="406" width="620" height="42" rx="21" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="300" y="433" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">궁금한 점을 입력하세요</text>
+<rect x="916" y="406" width="46" height="42" rx="21" fill="#FF4B4B" stroke="none" stroke-width="1"/>
+<text x="939" y="433" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="normal" fill="#FFFFFF" text-anchor="middle">➤</text>
+<circle cx="264" cy="498" r="13" fill="#FF4B4B"/>
+<text x="264" y="503" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<rect x="282" y="494" width="200" height="38" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<text x="382.0" y="518" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="bold" fill="#262730" text-anchor="middle">🙋 CS 상담 연결하기</text>
+<rect x="1026" y="116" width="620" height="260" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="116" width="620" height="34" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="142" width="620" height="8" rx="8" fill="#305496" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="139" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="start">Description</text>
+<line x1="1026" y1="150" x2="1646" y2="150" stroke="#E2E4E9"/>
+<circle cx="1048" cy="177.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="182.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="1070" y="170" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">대화 이력</text>
+<text x="1070" y="188" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">사용자 질문과 AI 답변을 채팅 형태로 주고받는다.</text>
+<rect x="1395.5" y="160" width="232.5" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1511.75" y="174.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.chat_message(&apos;user&apos;/&apos;assistant&apos;)</text>
+<line x1="1026" y1="204" x2="1646" y2="204" stroke="#E2E4E9"/>
+<circle cx="1048" cy="231.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="236.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="1070" y="224" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">근거 인용 표시</text>
+<text x="1070" y="242" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">AI 답변 하단에 근거 문서 출처를 인용 표시한다.</text>
+<rect x="1471.1" y="214" width="156.9" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1549.55" y="228.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.caption(&apos;📎 출처: ...&apos;)</text>
+<line x1="1026" y1="258" x2="1646" y2="258" stroke="#E2E4E9"/>
+<circle cx="1048" cy="285.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="290.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1070" y="278" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">질문 입력창</text>
+<text x="1070" y="296" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">자연어로 질문을 입력하고 전송한다.</text>
+<rect x="1433.3" y="268" width="194.7" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1530.6499999999999" y="282.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.chat_input(&apos;궁금한 점을 입력하세요&apos;)</text>
+<line x1="1026" y1="312" x2="1646" y2="312" stroke="#E2E4E9"/>
+<circle cx="1048" cy="339.0" r="11" fill="#FF4B4B"/>
+<text x="1048" y="344.0" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="1070" y="332" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="bold" fill="#262730" text-anchor="start">CS 상담 연결 버튼</text>
+<text x="1070" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#6E7079" text-anchor="start">답변 신뢰도가 낮을 때 CS 상담 연결 버튼을 강조 노출한다.</text>
+<rect x="1328" y="322" width="300" height="20" rx="10.0" fill="#EEF1F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1478.0" y="336.0" font-family="'Cascadia Code', 'Consolas', monospace" font-size="9.5" font-weight="normal" fill="#305496" text-anchor="middle">st.button(label, type=&apos;primary&apos;, disabled=...)</text>
+<rect x="1026" y="396" width="620" height="144" rx="8" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="396" width="620" height="34" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1026" y="422" width="620" height="8" rx="8" fill="#8497B0" stroke="#D6D9DE" stroke-width="1"/>
+<text x="1040" y="419" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="start">Check Point (기능 · 로직 설명)</text>
+<text x="1042" y="452" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">1. RAG 검색 대상: 상품마스터 · 영양소_기능성_추천DB · 권장섭취량 데이터(Day01 수집 데이터 재사용).</text>
+<text x="1042" y="482" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">2. 답변 신뢰도가 낮다고 판단되면 &apos;CS 상담 연결&apos; 버튼을 강조 노출한다.</text>
+<text x="1042" y="512" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="normal" fill="#262730" text-anchor="start">3. Could 범위: MVP 출시 이후 별도 검증 단계에서 우선순위를 재검토한다.</text>
+</svg>
