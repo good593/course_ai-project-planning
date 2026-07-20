@@ -1,1 +1,7 @@
-# course_ai-proejct-planning
+# AI 프로젝트 기획 강의자료 
+
+
+
+
+
+
