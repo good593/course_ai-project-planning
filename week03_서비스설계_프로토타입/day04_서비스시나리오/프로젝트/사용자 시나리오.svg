@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="610" viewBox="0 0 1650 610" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#9AA0AA"/>
+</marker>
+<marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#FF4B4B"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1650" height="610" rx="0" fill="#F7F8FA" stroke="none" stroke-width="1"/>
+<text x="60" y="46" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="25" font-weight="bold" fill="#262730" text-anchor="start">건강한하루 — 정상 사용자 시나리오 (User Scenario)</text>
+<text x="60" y="74" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13.5" font-weight="normal" fill="#6E7079" text-anchor="start">Day01 User Story · Day02 User Flow · Day03 스크린리스트를 한 사람의 이야기로 연결</text>
+<rect x="60" y="92" width="1530" height="76" rx="10" fill="#F0F2F6" stroke="#D6D9DE" stroke-width="1"/>
+<text x="84" y="118" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="11" font-weight="bold" fill="#FF4B4B" text-anchor="start">PERSONA</text>
+<text x="84" y="141" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="13" font-weight="normal" fill="#262730" text-anchor="start">김하늘 (32세, 직장인) — 모니터를 오래 보는 업무 특성상 눈이 쉽게 피로해지고, 만성 피로도 함께 겪고 있다</text>
+<text x="84" y="161" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">고민: 영양제 종류가 너무 많아 무엇을 골라야 할지 몰라 검색만 반복한다   →   목표: 내 상태에 맞는 영양제를 빠르고 안전하게 고르고 싶다</text>
+<rect x="60" y="200" width="340" height="320" rx="14" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="60" y="200" width="340" height="6" rx="0" fill="#FF4B4B" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="90" cy="234" r="18" fill="#FF4B4B" stroke="none"/>
+<text x="90" y="239" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<rect x="120" y="220" width="130" height="26" rx="13" fill="#FFF1F1" stroke="#FF4B4B" stroke-width="1"/>
+<text x="185" y="237" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#E03131" text-anchor="middle">UI-W-001</text>
+<text x="84" y="288" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">홈</text>
+<line x1="84" y1="304" x2="376" y2="304" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="84" y="328" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">USER ACTION</text>
+<text x="84" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">'눈 피로' 카테고리 칩 선택</text>
+<line x1="84" y1="400" x2="376" y2="400" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="84" y="422" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">SCENARIO</text>
+<text x="84" y="444" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">점심시간, 김하늘 님은 건강한하루</text>
+<text x="84" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">홈 화면에서 '눈 피로' 카테고리 칩을</text>
+<text x="84" y="482" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">눌러 건강고민입력 화면으로</text>
+<text x="84" y="501" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">들어간다.</text>
+<line x1="404" y1="234" x2="446" y2="234" stroke="#FF4B4B" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+<rect x="450" y="200" width="340" height="320" rx="14" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="450" y="200" width="340" height="6" rx="0" fill="#FF4B4B" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="480" cy="234" r="18" fill="#FF4B4B" stroke="none"/>
+<text x="480" y="239" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="510" y="220" width="130" height="26" rx="13" fill="#FFF1F1" stroke="#FF4B4B" stroke-width="1"/>
+<text x="575" y="237" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#E03131" text-anchor="middle">UI-W-002</text>
+<text x="474" y="288" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">건강고민입력</text>
+<line x1="474" y1="304" x2="766" y2="304" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="474" y="328" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">USER ACTION</text>
+<text x="474" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">고민 선택 후</text>
+<text x="474" y="370" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">'맞춤 추천 받기' 클릭</text>
+<line x1="474" y1="400" x2="766" y2="400" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="474" y="422" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">SCENARIO</text>
+<text x="474" y="444" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">'눈 피로'와 '피로감'을 선택하고</text>
+<text x="474" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">'맞춤 추천 받기'를 누르자, AI가</text>
+<text x="474" y="482" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">근거와 함께 상품 5개를</text>
+<text x="474" y="501" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">추천한다.</text>
+<line x1="794" y1="234" x2="836" y2="234" stroke="#FF4B4B" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+<rect x="840" y="200" width="340" height="320" rx="14" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="840" y="200" width="340" height="6" rx="0" fill="#FF4B4B" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="870" cy="234" r="18" fill="#FF4B4B" stroke="none"/>
+<text x="870" y="239" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<rect x="900" y="220" width="130" height="26" rx="13" fill="#FFF1F1" stroke="#FF4B4B" stroke-width="1"/>
+<text x="965" y="237" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#E03131" text-anchor="middle">UI-W-003</text>
+<text x="864" y="288" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">추천결과</text>
+<line x1="864" y1="304" x2="1156" y2="304" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="864" y="328" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">USER ACTION</text>
+<text x="864" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">추천 상품·근거·섭취량 확인</text>
+<line x1="864" y1="400" x2="1156" y2="400" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="864" y="422" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">SCENARIO</text>
+<text x="864" y="444" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">추천 결과 화면에서 권장·상한</text>
+<text x="864" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">섭취량을 함께 확인한 하늘 님은</text>
+<text x="864" y="482" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">첫 번째 상품인 루테인 지아잔틴을</text>
+<text x="864" y="501" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">눌러 상세 페이지로 이동한다.</text>
+<line x1="1184" y1="234" x2="1226" y2="234" stroke="#FF4B4B" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+<rect x="1230" y="200" width="340" height="320" rx="14" fill="#FFFFFF" stroke="#D6D9DE" stroke-width="1"/>
+<rect x="1230" y="200" width="340" height="6" rx="0" fill="#FF4B4B" stroke="#D6D9DE" stroke-width="1"/>
+<circle cx="1260" cy="234" r="18" fill="#FF4B4B" stroke="none"/>
+<text x="1260" y="239" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<rect x="1290" y="220" width="130" height="26" rx="13" fill="#FFF1F1" stroke="#FF4B4B" stroke-width="1"/>
+<text x="1355" y="237" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12" font-weight="bold" fill="#E03131" text-anchor="middle">UI-H-004</text>
+<text x="1254" y="288" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="20" font-weight="bold" fill="#262730" text-anchor="start">상품상세</text>
+<line x1="1254" y1="304" x2="1546" y2="304" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="1254" y="328" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">USER ACTION</text>
+<text x="1254" y="350" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">성분 설명·섭취방법 확인 후</text>
+<text x="1254" y="370" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="14.5" font-weight="bold" fill="#262730" text-anchor="start">구매 결정</text>
+<line x1="1254" y1="400" x2="1546" y2="400" stroke="#D6D9DE" stroke-width="1.5"/>
+<text x="1254" y="422" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="10.5" font-weight="bold" fill="#6E7079" text-anchor="start">SCENARIO</text>
+<text x="1254" y="444" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">성분 쉬운 설명과 섭취방법을 읽고</text>
+<text x="1254" y="463" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">상한섭취량을 넘지 않는다는 것을</text>
+<text x="1254" y="482" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">확인한 뒤, 안심하고</text>
+<text x="1254" y="501" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">'구매하기'를 누른다.</text>
+<text x="60" y="560" font-family="Segoe UI, 'Noto Sans KR', Pretendard, sans-serif" font-size="12.5" font-weight="normal" fill="#6E7079" text-anchor="start">※ Day02 User Flow(Step1~6)와 Day03 스크린리스트를 그대로 이어 붙인 것이 정상 시나리오입니다.</text>
+</svg>
