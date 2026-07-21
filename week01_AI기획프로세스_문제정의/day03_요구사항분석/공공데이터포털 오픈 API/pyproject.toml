@@ -1,0 +1,15 @@
+[project]
+name = "venv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "koreanize-matplotlib>=0.1.1",
+    "pandas>=3.0.3",
+    "seaborn>=0.13.2",
+    "python-dotenv==1.1.1",
+    "requests>=2.32.0",
+    "setuptools>=83.0.0",
+]
