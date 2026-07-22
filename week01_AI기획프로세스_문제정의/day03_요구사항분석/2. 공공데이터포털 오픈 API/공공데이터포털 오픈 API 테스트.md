@@ -10,7 +10,7 @@ marp: true
 paginate: true
 ---
 # 공공데이터포털 오픈 API 테스트
-### 식품안전나라 - 개별기준규격(I2580)
+### 식품안전나라 - 건강기능식품 영양DB(I0760)
 
 ---
 ## 오늘의 학습 목표
@@ -21,23 +21,24 @@ paginate: true
 
 ---
 ## 실습 대상 API
-> [식품안전나라 오픈API - 개별기준규격(I2580)](https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?menu_no=661&menu_grp=MENU_GRP31&p_svcTypeCd=API_TYPE06&svc_no=I2580)
+> [식품안전나라 오픈API - 건강기능식품 영양DB(I0760)](https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I0760)
 
-식품의약품안전처가 제공하는 식품별 **기준규격 정보**(시험항목, 기준값, 단위 등)를 조회하는 API입니다.
+식품의약품안전처가 제공하는 **건강기능식품 항목과 분류 체계**(대·중·소분류 코드와 명칭)를 조회하는 API입니다.
 
-- 서비스ID: `I2580`
+- 서비스ID: `I0760`
 - 응답 형식: XML / JSON
 - 1회 호출 최대 1,000건
+- 테스트용 `sample` 키 지원
 
 ---
 ## API 상세 페이지에서 먼저 볼 것
 API를 호출하기 전, 문서에서 아래 항목부터 확인합니다.
 
-| 항목 | 개별기준규격(I2580) |
+| 항목 | 건강기능식품 영양DB(I0760) |
 | --- | --- |
 | 요청 주소 | `openapi.foodsafetykorea.go.kr/api/...` |
 | 요청 파라미터 | 인증키, 서비스ID, 응답형식, 시작/종료위치 (+ 선택 조건) |
-| 응답 항목 | 품목명, 시험항목명, 기준규격, 단위 등 |
+| 응답 항목 | 건강 항목 그룹, 대·중·소분류 코드와 명칭 |
 | 인증 방식 | 인증키(API Key) 필요 |
 | 호출 제한 | 1회 최대 1,000건 |
 
@@ -49,7 +50,7 @@ http://openapi.foodsafetykorea.go.kr/api/{인증키}/{서비스ID}/{요청타입
 
 조건을 추가할 때는 뒤에 `/키=값&키=값` 형태로 붙입니다.
 ```
-.../{시작위치}/{종료위치}/PRDLST_CD=값&LAST_UPDT_DTM=값
+.../{시작위치}/{종료위치}/HELT_ITM_GRP_NM=값
 ```
 
 ---
@@ -57,23 +58,20 @@ http://openapi.foodsafetykorea.go.kr/api/{인증키}/{서비스ID}/{요청타입
 | 순서 | 이름 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 1 | 인증키 | O | 발급받은 API Key |
-| 2 | 서비스ID | O | `I2580` (개별기준규격) |
+| 2 | 서비스ID | O | `I0760` (건강기능식품 영양DB) |
 | 3 | 요청타입 | O | `xml` 또는 `json` |
 | 4 | 시작위치 | O | 조회 시작 행 번호 |
 | 5 | 종료위치 | O | 조회 종료 행 번호 |
-| - | `PRDLST_CD` | X | 품목분류코드로 필터링 |
-| - | `LAST_UPDT_DTM` | X | 최종수정일(YYYYMMDD)로 필터링 |
+| - | `HELT_ITM_GRP_NM` | X | 건강 항목 그룹 명으로 필터링 |
 
 ---
 ## 응답 항목 (주요 항목)
 | 필드명 | 설명 |
 | --- | --- |
-| `PRDLST_CD` | 품목분류코드 |
-| `PRDLST_CD_NM` | 품목명 |
-| `TESTITM_NM` | 시험항목명 |
-| `SPEC_VAL` | 기준규격 |
-| `UNIT_NM` | 단위명 |
-| `VALD_BEGN_DT` / `VALD_END_DT` | 유효 개시일 / 종료일 |
+| `HELT_ITM_GRP_CD` / `HELT_ITM_GRP_NM` | 건강 항목 그룹 코드 / 명 |
+| `LCLAS_CD` / `LCLAS_NM` | 대분류 코드 / 명 |
+| `MLSFC_CD` / `MLSFC_NM` | 중분류 코드 / 명 |
+| `SCLAS_CD` / `SCLAS_NM` | 소분류 코드 / 명 |
 
 > 전체 응답 항목은 API 상세 페이지의 "출력값(Response Message)" 표에서 확인합니다.
 
@@ -100,31 +98,40 @@ import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.getenv("FOOD_SAFETY_API_KEY", "sample")
+API_KEY = os.getenv("FOOD_SAFETY_API_KEY")
+
+if not API_KEY or API_KEY == "발급받은_인증키를_입력하세요":
+    API_KEY = "sample"  # I0760에서 지원하는 테스트용 키
 ```
 
-`.env`는 깃에 올리지 않고, `.env.sample`만 공유해서 팀원이 각자 키를 채워 넣게 합니다.
+`.env`는 Git에 올리지 않고, `.env.sample`만 공유해서 팀원이 각자 키를 채워 넣게 합니다. 인증키가 담긴 URL도 노트북 출력이나 로그에 남기지 않습니다.
 
 ---
 ## 3. 코드로 호출하기 - 요청
 ```python
 BASE_URL = "http://openapi.foodsafetykorea.go.kr/api"
-SERVICE_ID, DATA_TYPE = "I2580", "json"
+SERVICE_ID, DATA_TYPE = "I0760", "json"
 
 url = f"{BASE_URL}/{API_KEY}/{SERVICE_ID}/{DATA_TYPE}/1/5"
-response = requests.get(url)
+try:
+    response = requests.get(url, timeout=10)
+    response.raise_for_status()
+except requests.RequestException as error:
+    # 기본 오류 메시지에 URL과 인증키가 노출되지 않도록 오류 유형만 알린다.
+    raise RuntimeError(f"API 요청 실패: {type(error).__name__}") from None
+
 data = response.json()
 ```
 
 ---
 ## 4. 응답 구조 확인하기
-응답은 항상 `{서비스ID: {...}}` 형태입니다.
+정상적인 JSON 응답은 `{서비스ID: {...}}` 형태입니다. HTTP 오류나 JSON이 아닌 응답은 먼저 예외로 처리해야 합니다.
 
 ```json
 {
-  "I2580": {
+  "I0760": {
     "total_count": "12345",
-    "row": [ { "PRDLST_CD_NM": "과자", "TESTITM_NM": "산가", "...": "..." } ],
+    "row": [ { "HELT_ITM_GRP_NM": "프랑스해안송꺼질추출물", "LCLAS_NM": "건강기능식품", "...": "..." } ],
     "RESULT": { "CODE": "INFO-000", "MSG": "정상처리되었습니다." }
   }
 }
@@ -141,26 +148,40 @@ def call_food_api(service_id, api_key=API_KEY, data_type="json",
     if params:
         url += "/" + "&".join(f"{k}={v}" for k, v in params.items())
 
-    body = requests.get(url).json()[service_id]
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+    except requests.RequestException as error:
+        # 인증키가 담긴 URL 대신 오류 유형만 알린다.
+        raise RuntimeError(f"API 요청 실패: {type(error).__name__}") from None
+
+    data = response.json()
+    if service_id not in data:
+        raise KeyError(f"응답에 서비스 ID '{service_id}'가 없습니다: {list(data)}")
+
+    body = data[service_id]
     result = body["RESULT"]
 
     if result["CODE"] != "INFO-000":
         print(f"[{result['CODE']}] {result['MSG']}")
         return result["CODE"], pd.DataFrame()
 
-    return result["CODE"], pd.DataFrame(body["row"])
+    return result["CODE"], pd.DataFrame(body.get("row", []))
 ```
 
 ---
 ## 6. 조건 추가해서 검색하기
 ```python
-code, df = call_food_api("I2580", end_idx=20)
+code, df = call_food_api("I0760", end_idx=20)
 
-target_code = df.loc[0, "PRDLST_CD"]
-code, df_target = call_food_api("I2580", end_idx=50, PRDLST_CD=target_code)
+if not df.empty:
+    target_name = df.iloc[0]["HELT_ITM_GRP_NM"]
+    code, df_target = call_food_api(
+        "I0760", end_idx=50, HELT_ITM_GRP_NM=target_name
+    )
 ```
 
-- 응답에서 얻은 `PRDLST_CD` 값을 다음 요청의 조건으로 재사용합니다.
+- 응답에서 얻은 `HELT_ITM_GRP_NM` 값을 다음 요청의 조건으로 재사용합니다.
 - 파라미터를 `**params`로 받아두면 다른 API에도 함수를 재사용할 수 있습니다.
 
 ---
@@ -169,12 +190,13 @@ code, df_target = call_food_api("I2580", end_idx=50, PRDLST_CD=target_code)
 | --- | --- |
 | `INFO-000` | 정상 처리 |
 | `INFO-200` | 해당 조건의 데이터 없음 |
-| `ERROR-100` | 인증키가 없거나 유효하지 않음 |
+| `INFO-100` | 인증키가 없거나 유효하지 않음 |
 | `ERROR-300` | 필수 파라미터 누락 |
 | `ERROR-336` | 요청 범위 초과 (최대 1,000건) |
-| `ERROR-500` | 서버 오류 (요청 형식·서비스ID 오류 포함) |
+| `ERROR-310` | 해당하는 서비스를 찾을 수 없음 |
+| `ERROR-500` | 서버 오류 |
 
-> `sample` 키는 데이터셋마다 지원 여부가 다릅니다. 개별기준규격(I2580)은 `sample` 키로는 `ERROR-500`이 발생하므로 정식 인증키가 필요합니다.
+> `sample` 키의 지원 여부는 데이터셋마다 다릅니다. 건강기능식품 영양DB(I0760)는 `sample` 키로 실습할 수 있습니다.
 
 
 ---
