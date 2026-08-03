@@ -66,7 +66,14 @@ paginate: true
 
 ![alt text](./img/image-4.png)
 
-
-
+---
+# [예제영상> 무료 피그마 사용법 A~Z까지 단 15분 컷](https://www.youtube.com/watch?v=mxZlOwbqUho)
+- 피그마 디자인
+- 피그마 설정
+- 툴바 사용법 
+- 프레임 
+- 오토레이아웃
+- 컨스트레인트
+- 컴포넌트
 
 

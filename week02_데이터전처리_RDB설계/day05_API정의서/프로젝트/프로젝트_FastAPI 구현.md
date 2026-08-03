@@ -213,4 +213,11 @@ Request body:
 
 ![alt text](./img/image-13.png)
 
+---
+# [예제영상> Python FastAPI 튜토리얼](https://www.youtube.com/watch?v=iWS9ogMPOI0)
+- GET 및 POST 경로
+- HTTP 오류 처리
+- JSON 요청 및 경로 매개변수
+- 응답 모델
+- 대화형 문서
 

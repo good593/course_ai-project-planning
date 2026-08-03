@@ -120,3 +120,9 @@ graph TD
 ---
 ![alt text](./img/image-12.png)
 
+---
+# [예제영상> Mermaid 다이어그램 자동화 예시들](https://www.youtube.com/watch?v=uBqCCqIBGVk&t=448s)
+1. 회원가입 프로세스 다이어그램 
+2. 쇼핑몰 전산 프로세스 다이어그램
+3. PCB 기판 프로세스 다이어그램
+4. 암보험 플랜 마케팅 프로세스 다이어그램
