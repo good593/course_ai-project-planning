@@ -264,3 +264,18 @@ RAG는 AI가 외부 지식을 검색해 답변하도록 만드는 방식입니�
 
 기획자의 역할은 기술 이름을 고르는 것이 아니라
 **사용자 문제에 맞는 지식 활용 방식을 판단하는 것**입니다.
+
+---
+# [예제영상> 초보자들을 위한 RAG 개념 20분 마스터클래스](https://www.youtube.com/watch?v=NbrN-NwKvuc)
+- RAG란 무엇인가, 왜 필요한가
+- Embedding과 벡터: 텍스트를 숫자로 바꾸는 원리
+- 청킹과 Parser: 문서를 어떻게 잘라야 검색이 되는가
+- 벡터 데이터베이스: 숫자를 저장하고 검색하는 방법
+- RAG 파이프라인 전체 흐름 정리
+- 실무에서 RAG가 실패하는 진짜 원인
+- Dense, Sparse Embedding과 하이브리드 서치
+- Reranker: 검색 결과를 정밀하게 재평가하기
+- 고급 기법: Contextual Retrieval
+- 고급 기법: Late Chunking
+
+
