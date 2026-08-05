@@ -9,7 +9,7 @@ style: |
 marp: true
 paginate: true
 ---
-# Mermaid
+# [Mermaid](https://mermaid.ai/app/dashboard)
 Mermaid(머메이드)는 그림판이나 디자인 툴(Figma, PPT 등)을 사용하지 않고, 오직 텍스트(코드)만 입력해서 플로우차트, 시퀀스 다이어그램, Gantt 차트 등을 자동으로 그려주는 오픈소스 도구입니다.
 
 > 쉽게 말해: "텍스트를 입력하면 알아서 그림으로 바꿔주는 다이어그램 자판기"라고 생각하면 됩니다.
@@ -72,6 +72,7 @@ graph TD
 
 ---
 # Mermaid 실습 
+> [Mermaid Tutorial](https://mermaid.ai/open-source/ecosystem/tutorials.html)
 
 ---
 ### [Mermaid 접속](https://mermaid.ai/app/dashboard)
